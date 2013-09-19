@@ -24,9 +24,9 @@ If you don't already have the vagrant box in your library, you can create this o
 
 You can also download the [packer-boxes](https://github.com/SocialGeeks/packer-boxes) repository and [follow the instructions](https://github.com/SocialGeeks/packer-boxes/blob/master/README.md) to create vagrant base boxes and add them to your library.  
 
-## Start arch-patsy with vagrant  
+## Start kali with vagrant  
 
-The 'vagrant up' command will import the kali base image into VirtualBox and then run the post configuration specified in the Vagrantfile.  Use 'vagrant ssh' to ssh into arch-patsy.  XForwarding is configured and working.  The Vagrantfile will open the VirtualBox console in full screen.  You can login with root/toor.
+The 'vagrant up' command will import the kali base image into VirtualBox and then run the post configuration specified in the Vagrantfile.  Use 'vagrant ssh' to ssh into kali.  XForwarding is configured and working.  The Vagrantfile will open the VirtualBox console in full screen.  You can login with root/toor.
 
 	vagrant up  
 
